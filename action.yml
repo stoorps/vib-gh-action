@@ -24,3 +24,9 @@ runs:
     - name: Run Vib
       shell: bash
       run: ./vib build ${{ inputs.recipe }}
+
+    
+    - name: Compile Vib
+      shell: bash
+      run: ./vib compile ${{ inputs.recipe }}
+
